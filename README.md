@@ -1,6 +1,5 @@
 # 💫 About Me:
-A passionate developer from Philippines
-
+A passionate developer from the Philippines, always eager to learn and create innovative solutions.
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/PinoyITSolution) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/PinoyITSolution) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@PinoyITSolution) 
