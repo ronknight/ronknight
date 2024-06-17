@@ -4,9 +4,13 @@ A passionate developer from the Philippines, always eager to learn and create in
 ---
 
 ## 🌐 Socials:
+
 <a href="https://github.com/ronknight?tab=followers"><img src="https://img.shields.io/github/followers/ronknight?style=social"></a>
+<a href="https://github.com/ronknight/ronknight/stargazers"><img src="https://img.shields.io/github/stars/BEPb/BEPb.svg?logo=github"></a>
+<a href="https://github.com/ronknight/ronknight/network/members"><img src="https://img.shields.io/github/forks/BEPb/BEPb.svg?color=blue&logo=github"></a>
 <a href="https://twitter.com/PinoyITSolution"><img src="https://img.shields.io/twitter/follow/PinoyITSolution?style=social"></a>
 <a href="https://youtube.com/@PinoyITSolution"><img src="https://img.shields.io/youtube/channel/subscribers/UCeoETAlg3skyMcQPqr97omg"></a>
+<a href="https://visitcount.itsvg.in" rel="nofollow"><img src="https://camo.githubusercontent.com/e852c4b78d091ae81a13c39c99f9f9eb9e094572ef3a31706cf86d0022615fa8/68747470733a2f2f7669736974636f756e742e69747376672e696e2f6170693f69643d726f6e6b6e696768742669636f6e3d3026636f6c6f723d30" alt="" data-canonical-src="https://visitcount.itsvg.in/api?id=ronknight&amp;icon=0&amp;color=0" style="max-width: 100%;"></a>
 
 ---
 
