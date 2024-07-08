@@ -59,7 +59,7 @@ A dedicated developer hailing from the vibrant Philippines, constantly fueled by
 ---
 
 ## 💰 Donation
-Support my work by donating on [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/PinoyITSolution)
+Help fuel my projects by making a donation on [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/PinoyITSolution)
 
 ---
 
