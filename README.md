@@ -1,6 +1,5 @@
 # 💫 About Me:
-A passionate developer from the Philippines, always eager to learn and create innovative solutions.
-
+A dedicated developer hailing from the vibrant Philippines, constantly fueled by a passion for technology, a thirst for knowledge, and an unwavering drive to innovate and solve complex challenges.
 ---
 
 ## 🌐 Let's Connect!
