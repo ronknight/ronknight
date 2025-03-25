@@ -58,6 +58,22 @@ I am a committed developer from the Philippines, driven by a passion for technol
 [![DeepSeek](https://img.shields.io/badge/DeepSeek-%2300ADEF.svg?style=for-the-badge&logo=DeepSeek&logoColor=white)](https://deepseek.ai/)
 [![ChatGPT](https://img.shields.io/badge/ChatGPT-%2300ADEF.svg?style=for-the-badge&logo=ChatGPT&logoColor=white)](https://chatgpt.openai.com/)
 
+**Tools and Platforms:**
+
+[![Git](https://img.shields.io/badge/Git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)](https://git-scm.com/)
+[![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-%23326CE5.svg?style=for-the-badge&logo=kubernetes&logoColor=white)](https://kubernetes.io/)
+[![AWS](https://img.shields.io/badge/Amazon%20AWS-%23232F3E.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)](https://aws.amazon.com/)
+[![Azure](https://img.shields.io/badge/Microsoft%20Azure-%230078D4.svg?style=for-the-badge&logo=microsoft-azure&logoColor=white)](https://azure.microsoft.com/)
+[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)](https://cloud.google.com/)
+
+**DevOps:**
+
+[![Jenkins](https://img.shields.io/badge/Jenkins-%23D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white)](https://www.jenkins.io/)
+[![Travis CI](https://img.shields.io/badge/Travis%20CI-%233EAAAF.svg?style=for-the-badge&logo=travis-ci&logoColor=white)](https://travis-ci.org/)
+[![CircleCI](https://img.shields.io/badge/CircleCI-%235C4EE5.svg?style=for-the-badge&logo=circleci&logoColor=white)](https://circleci.com/)
+[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-%232088FF.svg?style=for-the-badge&logo=github-actions&logoColor=white)](https://github.com/features/actions)
+
 ---
 
 ## 📊 GitHub Statistics:
