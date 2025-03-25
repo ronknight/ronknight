@@ -1,20 +1,19 @@
 # 💫 About Me:
-A dedicated developer hailing from the vibrant Philippines, constantly fueled by a passion for technology, a thirst for knowledge, and an unwavering drive to innovate and solve complex challenges.
+I am a committed developer from the Philippines, driven by a passion for technology, a desire for continuous learning, and a dedication to innovating and solving complex challenges.
 
 ---
 
-## 🌐 Let's Connect!
+## 🌐 Connect with Me:
 
 <a href="https://github.com/ronknight?tab=followers"><img src="https://img.shields.io/github/followers/ronknight?style=social"></a>
 <a href="https://github.com/ronknight/ronknight/stargazers"><img src="https://img.shields.io/github/stars/BEPb/BEPb.svg?logo=github"></a>
 <a href="https://github.com/ronknight/ronknight/network/members"><img src="https://img.shields.io/github/forks/BEPb/BEPb.svg?color=blue&logo=github"></a>
 <a href="https://twitter.com/PinoyITSolution"><img src="https://img.shields.io/twitter/follow/PinoyITSolution?style=social"></a>
 <a href="https://youtube.com/@PinoyITSolution"><img src="https://img.shields.io/youtube/channel/subscribers/UCeoETAlg3skyMcQPqr97omg"></a>
-<a href="https://visitcount.itsvg.in" rel="nofollow"><img src="https://camo.githubusercontent.com/e852c4b78d091ae81a13c39c99f9f9eb9e094572ef3a31706cf86d0022615fa8/68747470733a2f2f7669736974636f756e742e69747376672e696e2f6170693f69643d726f6e6b6e696768742669636f6e3d3026636f6c6f723d30" alt="" data-canonical-src="https://visitcount.itsvg.in/api?id=ronknight&amp;icon=0&amp;color=0" style="max-width: 100%;"></a>
 
 ---
 
-## 🚀 My Tech Toolbox
+## 🚀 Technical Skills
 
 **Languages:**
 
@@ -32,7 +31,7 @@ A dedicated developer hailing from the vibrant Philippines, constantly fueled by
 [![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
 
-**Web:**
+**Web Development:**
 
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)](https://reactjs.org/)
@@ -47,9 +46,21 @@ A dedicated developer hailing from the vibrant Philippines, constantly fueled by
 [![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
 [![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)](https://www.microsoft.com/en-us/sql-server)
 
+**AI Technologies:**
+
+[![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)](https://pytorch.org/)
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-%23FF6F00.svg?style=for-the-badge&logo=Hugging%20Face&logoColor=white)](https://huggingface.co/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-%234EA94B.svg?style=for-the-badge&logo=OpenAI&logoColor=white)](https://openai.com/)
+[![SpaCy](https://img.shields.io/badge/SpaCy-%2300C4CC.svg?style=for-the-badge&logo=SpaCy&logoColor=white)](https://spacy.io/)
+[![Claude](https://img.shields.io/badge/Claude-%2300CC99.svg?style=for-the-badge&logo=Claude&logoColor=white)](https://claude.ai/)
+[![Google Gemini](https://img.shields.io/badge/Google%20Gemini-%23EA4335.svg?style=for-the-badge&logo=Google%20Gemini&logoColor=white)](https://gemini.google.com/)
+[![DeepSeek](https://img.shields.io/badge/DeepSeek-%2300ADEF.svg?style=for-the-badge&logo=DeepSeek&logoColor=white)](https://deepseek.ai/)
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-%2300ADEF.svg?style=for-the-badge&logo=ChatGPT&logoColor=white)](https://chatgpt.openai.com/)
+
 ---
 
-## 📊 GitHub Stats:
+## 📊 GitHub Statistics:
 ![](https://github-readme-stats.vercel.app/api?username=ronknight&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 ![](https://github-readme-streak-stats.herokuapp.com/?user=ronknight&theme=dark&hide_border=false)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ronknight&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
@@ -61,13 +72,8 @@ A dedicated developer hailing from the vibrant Philippines, constantly fueled by
 
 ---
 
-### 🔝 Top Contributed Repo
+### 🔝 Top Contributed Repositories
 ![](https://github-contributor-stats.vercel.app/api?username=ronknight&limit=5&theme=dark&combine_all_yearly_contributions=true)
-
----
-
-## 💰 Donation
-Help fuel my projects by making a donation on [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/PinoyITSolution)
 
 ---
 
