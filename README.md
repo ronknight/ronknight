@@ -14,6 +14,51 @@ I am a passionate AI developer and machine learning engineer from the Philippine
 
 ---
 
+## 📊 Repository Portfolio
+
+**Portfolio Statistics:**
+
+![Total Repos](https://img.shields.io/badge/Total_Repositories-287-2ea44f?style=for-the-badge)
+![Public](https://img.shields.io/badge/Public-112-0969da?style=for-the-badge)
+![Private](https://img.shields.io/badge/Private-175-bf3989?style=for-the-badge)
+![Stars](https://img.shields.io/badge/Total_Stars-574-yellow?style=for-the-badge)
+![Forks](https://img.shields.io/badge/Total_Forks-215-orange?style=for-the-badge)
+
+### 💼 Tech Stack Distribution
+
+Based on **287 repositories** across my portfolio:
+
+| Technology | Repositories | Percentage | Primary Use |
+|------------|-------------|------------|-------------|
+| **Python** | 136 | 47.4% | AI/ML, Automation, APIs, Data Processing |
+| **JavaScript** | 32 | 11.1% | Web Apps, Frontend, Node.js |
+| **HTML** | 35 | 12.2% | Web Interfaces, Templates |
+| **TypeScript** | 17 | 5.9% | Type-safe Applications, React |
+| **PHP** | 9 | 3.1% | Web Applications, CMS |
+| **Jupyter Notebook** | 3 | 1.0% | Data Analysis, ML Experiments |
+| **Other** | 42 | 14.6% | Various Technologies |
+
+### 🏆 Notable Projects
+
+**Most Starred:**
+- [InventorySystem](https://github.com/ronknight/InventorySystem) - **437 ⭐** - Open-source Inventory Management (PHP/CodeIgniter)
+- [bulk_file_downloader](https://github.com/ronknight/bulk_file_downloader) - **15 ⭐** - Bulk file download utility (Python)
+- [alibaba-open-api](https://github.com/ronknight/alibaba-open-api) - **6 ⭐** - Alibaba API integration (Python)
+
+**Recent AI/ML Projects:**
+- [bundle-optimization-engine](https://github.com/ronknight/bundle-optimization-engine) - QAOA-based optimization
+- [quantum-password-generator](https://github.com/ronknight/quantum-password-generator) - Quantum-powered security
+- [CharacterVision](https://github.com/ronknight/CharacterVision) - TensorFlow image recognition
+
+**Active Development Areas:**
+- 🤖 AI-powered automation and intelligent systems
+- 📧 Email marketing automation (Klaviyo, Brevo, SuiteCRM)
+- 🛒 E-commerce integrations (Alibaba, WooCommerce)
+- 🔍 SEO and web scraping tools
+- 📊 Data processing and analytics
+
+---
+
 ## 🧠 AI & Machine Learning Expertise
 
 **Core AI Technologies:**
