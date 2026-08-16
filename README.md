@@ -7,8 +7,8 @@ I am a passionate AI developer and machine learning engineer from the Philippine
 ## 🌐 Connect with Me:
 
 <a href="https://github.com/ronknight?tab=followers"><img src="https://img.shields.io/github/followers/ronknight?style=social"></a>
-<a href="https://github.com/ronknight/ronknight/stargazers"><img src="https://img.shields.io/github/stars/BEPb/BEPb.svg?logo=github"></a>
-<a href="https://github.com/ronknight/ronknight/network/members"><img src="https://img.shields.io/github/forks/BEPb/BEPb.svg?color=blue&logo=github"></a>
+<a href="https://github.com/ronknight/ronknight/stargazers"><img src="https://img.shields.io/github/stars/ronknight/ronknight.svg?logo=github"></a>
+<a href="https://github.com/ronknight/ronknight/network/members"><img src="https://img.shields.io/github/forks/ronknight/ronknight.svg?color=blue&logo=github"></a>
 <a href="https://twitter.com/PinoyITSolution"><img src="https://img.shields.io/twitter/follow/PinoyITSolution?style=social"></a>
 <a href="https://youtube.com/@PinoyITSolution"><img src="https://img.shields.io/youtube/channel/subscribers/UCeoETAlg3skyMcQPqr97omg"></a>
 
@@ -16,39 +16,41 @@ I am a passionate AI developer and machine learning engineer from the Philippine
 
 ## 📊 Repository Portfolio
 
-**Portfolio Statistics:**
+<!-- auto:portfolio-stats -->
+**Portfolio Statistics** *(updated 2026-08-15)*:
 
-![Total Repos](https://img.shields.io/badge/Total_Repositories-287-2ea44f?style=for-the-badge)
-![Public](https://img.shields.io/badge/Public-112-0969da?style=for-the-badge)
-![Private](https://img.shields.io/badge/Private-175-bf3989?style=for-the-badge)
-![Stars](https://img.shields.io/badge/Total_Stars-574-yellow?style=for-the-badge)
-![Forks](https://img.shields.io/badge/Total_Forks-215-orange?style=for-the-badge)
+![Total Repos](https://img.shields.io/badge/Total_Repositories-329-2ea44f?style=for-the-badge)
+![Public](https://img.shields.io/badge/Public-104-0969da?style=for-the-badge)
+![Private](https://img.shields.io/badge/Private-225-bf3989?style=for-the-badge)
+![Stars](https://img.shields.io/badge/Total_Stars-610-yellow?style=for-the-badge)
+![Forks](https://img.shields.io/badge/Total_Forks-218-orange?style=for-the-badge)
 
 ### 💼 Tech Stack Distribution
 
-Based on **287 repositories** across my portfolio:
+Based on **329 repositories** across my portfolio:
 
 | Technology | Repositories | Percentage | Primary Use |
 |------------|-------------|------------|-------------|
-| **Python** | 136 | 47.4% | AI/ML, Automation, APIs, Data Processing |
-| **JavaScript** | 32 | 11.1% | Web Apps, Frontend, Node.js |
-| **HTML** | 35 | 12.2% | Web Interfaces, Templates |
-| **TypeScript** | 17 | 5.9% | Type-safe Applications, React |
-| **PHP** | 9 | 3.1% | Web Applications, CMS |
-| **Jupyter Notebook** | 3 | 1.0% | Data Analysis, ML Experiments |
-| **Other** | 42 | 14.6% | Various Technologies |
+| **Python** | 158 | 48.0% | AI/ML, Automation, APIs, Data Processing |
+| **HTML** | 42 | 12.8% | Web Interfaces, Templates |
+| **JavaScript** | 37 | 11.2% | Web Apps, Frontend, Node.js |
+| **TypeScript** | 23 | 7.0% | Type-safe Applications, React |
+| **PHP** | 9 | 2.7% | Web Applications, CMS |
+| **Jupyter Notebook** | 2 | 0.6% | Data Analysis, ML Experiments |
+| **Other** | 58 | 17.6% | Various Technologies |
 
 ### 🏆 Notable Projects
 
 **Most Starred:**
-- [InventorySystem](https://github.com/ronknight/InventorySystem) - **437 ⭐** - Open-source Inventory Management (PHP/CodeIgniter)
-- [bulk_file_downloader](https://github.com/ronknight/bulk_file_downloader) - **15 ⭐** - Bulk file download utility (Python)
-- [alibaba-open-api](https://github.com/ronknight/alibaba-open-api) - **6 ⭐** - Alibaba API integration (Python)
+- [InventorySystem](https://github.com/ronknight/InventorySystem) - **464 ⭐** - Open-source Inventory Management (PHP/CodeIgniter)
+- [bulk_file_downloader](https://github.com/ronknight/bulk_file_downloader) - **18 ⭐** - Bulk file download utility (Python)
+- [export-woocommerce-products-wordpress](https://github.com/ronknight/export-woocommerce-products-wordpress) - **6 ⭐** - WooCommerce product export automation (Python)
 
 **Recent AI/ML Projects:**
-- [bundle-optimization-engine](https://github.com/ronknight/bundle-optimization-engine) - QAOA-based optimization
-- [quantum-password-generator](https://github.com/ronknight/quantum-password-generator) - Quantum-powered security
-- [CharacterVision](https://github.com/ronknight/CharacterVision) - TensorFlow image recognition
+- [mempalace](https://github.com/ronknight/mempalace) - Benchmarked open-source AI memory system (Python)
+- [Ai-hologram](https://github.com/ronknight/Ai-hologram) - AI hologram experience (TypeScript)
+- [alibaba-open-api](https://github.com/ronknight/alibaba-open-api) - Alibaba Open API integration (Python)
+<!-- /auto:portfolio-stats -->
 
 **Active Development Areas:**
 - 🤖 AI-powered automation and intelligent systems
