@@ -92,6 +92,8 @@ I build AI-powered tools, e-commerce API integrations, and automation systems th
 ---
 
 ## 📊 GitHub Statistics:
+![](https://metrics.pinoyitsolution.com/stats.php?card=stats)
+![](https://metrics.pinoyitsolution.com/stats.php?card=langs)
 ![](https://streak-stats.demolab.com/?user=ronknight&theme=dark&hide_border=false)
 
 ---

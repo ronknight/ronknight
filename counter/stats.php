@@ -18,7 +18,8 @@
 $cacheFile = __DIR__ . '/stats_cache.json';
 $cacheTtl  = 3600;
 
-$card = ($_GET['card'] ?? 'stats') === 'langs' ? 'langs' : 'stats';
+$cards = ['stats', 'langs', 'trophies', 'top'];
+$card  = in_array($_GET['card'] ?? 'stats', $cards, true) ? $_GET['card'] : 'stats';
 
 /* ---------- data ---------- */
 
@@ -69,6 +70,8 @@ function fetch_summary(string $token): ?array
     $stars   = 0;
     $forks   = 0;
     $recent  = 0;
+    $oldest  = '9999';
+    $public  = [];
     $yearAgo = gmdate('Y-m-d', strtotime('-1 year')) . 'T00:00:00Z';
     foreach ($repos as $r) {
         $stars += $r['stargazers_count'] ?? 0;
@@ -76,21 +79,36 @@ function fetch_summary(string $token): ?array
         if (($r['created_at'] ?? '') >= $yearAgo) {
             $recent++;
         }
+        if (($r['created_at'] ?? '9999') < $oldest) {
+            $oldest = $r['created_at'];
+        }
         if (!empty($r['language'])) {
             $langs[$r['language']] = ($langs[$r['language']] ?? 0) + 1;
         }
+        if (empty($r['private'])) {
+            $public[] = [
+                'name'  => $r['name'],
+                'stars' => $r['stargazers_count'] ?? 0,
+                'lang'  => $r['language'] ?? '',
+            ];
+        }
     }
     arsort($langs);
+    usort($public, fn($a, $b) => $b['stars'] <=> $a['stars']);
 
     return [
+        'v'         => 2,
         'name'      => $user['name'] ?: $user['login'],
         'repos'     => count($repos),
         'stars'     => $stars,
         'forks'     => $forks,
         'followers' => $user['followers'] ?? 0,
         'recent'    => $recent,
+        'since'     => (int) substr($oldest, 0, 4),
+        'langCount' => count($langs),
         'langs'     => array_slice($langs, 0, 6, true),
         'langTotal' => array_sum($langs),
+        'top'       => array_slice($public, 0, 5),
     ];
 }
 
@@ -101,6 +119,7 @@ $summary = null;
 $stale   = false;
 
 if (is_array($cache) && isset($cache['summary'], $cache['fetched_at'])
+    && ($cache['summary']['v'] ?? 0) >= 2
     && time() - $cache['fetched_at'] < $cacheTtl) {
     $summary = $cache['summary'];
 } else {
@@ -179,6 +198,62 @@ if ($card === 'stats') {
        . '<rect width="420" height="' . $h . '" rx="6" fill="#0d1117" stroke="#30363d"/>'
        . '<text x="24" y="34" font-size="16" font-weight="600" fill="#58a6ff">'
        . esc($summary['name']) . "'s GitHub Stats</text>"
+       . $staleNote . $body . '</svg>';
+    exit;
+}
+
+if ($card === 'trophies') {
+    $years   = max(1, (int) gmdate('Y') - ($summary['since'] ?? (int) gmdate('Y')));
+    $tiles = [
+        ['⭐', number_format($summary['stars']),        'Total Stars',      '#e3b341'],
+        ['📦', number_format($summary['repos']),        'Repositories',     '#58a6ff'],
+        ['👥', number_format($summary['followers']),    'Followers',        '#bc8cff'],
+        ['🚀', number_format($summary['recent']),       'Repos / Last Year', '#f778ba'],
+        ['🗓', $years . '+',                            'Years Shipping',   '#7ee787'],
+        ['💻', (string) ($summary['langCount'] ?? 0),   'Languages',        '#ffa657'],
+    ];
+    $w = 420; $tw = 124; $th = 88; $gap = 10; $x0 = 18; $y0 = 48;
+    $body = '';
+    foreach ($tiles as $i => [$icon, $value, $label, $color]) {
+        $x = $x0 + ($i % 3) * ($tw + $gap);
+        $y = $y0 + intdiv($i, 3) * ($th + $gap);
+        $cx = $x + $tw / 2;
+        $body .= '<rect x="' . $x . '" y="' . $y . '" width="' . $tw . '" height="' . $th
+               . '" rx="8" fill="#161b22" stroke="' . $color . '" stroke-width="1"/>'
+               . '<text x="' . $cx . '" y="' . ($y + 26) . '" text-anchor="middle" font-size="16">' . $icon . '</text>'
+               . '<text x="' . $cx . '" y="' . ($y + 52) . '" text-anchor="middle" font-size="18" font-weight="700" fill="'
+               . $color . '">' . esc($value) . '</text>'
+               . '<text x="' . $cx . '" y="' . ($y + 72) . '" text-anchor="middle" font-size="10" fill="#8b949e">'
+               . esc($label) . '</text>';
+    }
+    $h = $y0 + 2 * $th + $gap + 18;
+    echo '<svg xmlns="http://www.w3.org/2000/svg" width="' . $w . '" height="' . $h . '" '
+       . 'font-family="Segoe UI,Ubuntu,sans-serif" role="img" aria-label="GitHub achievements">'
+       . '<rect width="' . $w . '" height="' . $h . '" rx="6" fill="#0d1117" stroke="#30363d"/>'
+       . '<text x="24" y="32" font-size="16" font-weight="600" fill="#58a6ff">Achievements</text>'
+       . $staleNote . $body . '</svg>';
+    exit;
+}
+
+if ($card === 'top') {
+    $top     = $summary['top'] ?? [];
+    $maxStar = max(1, $top ? $top[0]['stars'] : 1);
+    $h       = 64 + count($top) * 32;
+    $body    = '';
+    $y       = 56;
+    foreach ($top as $r) {
+        $barW = (int) round(($r['stars'] / $maxStar) * 150);
+        $body .= '<text x="24" y="' . ($y + 12) . '" font-size="12" fill="#c9d1d9">' . esc($r['name']) . '</text>'
+               . '<rect x="200" y="' . $y . '" width="150" height="14" rx="7" fill="#21262d"/>'
+               . '<rect x="200" y="' . $y . '" width="' . max(4, $barW) . '" height="14" rx="7" fill="#e3b341"/>'
+               . '<text x="396" y="' . ($y + 12) . '" text-anchor="end" font-size="12" fill="#8b949e">★ '
+               . number_format($r['stars']) . '</text>';
+        $y += 32;
+    }
+    echo '<svg xmlns="http://www.w3.org/2000/svg" width="420" height="' . $h . '" '
+       . 'font-family="Segoe UI,Ubuntu,sans-serif" role="img" aria-label="Top repositories">'
+       . '<rect width="420" height="' . $h . '" rx="6" fill="#0d1117" stroke="#30363d"/>'
+       . '<text x="24" y="32" font-size="16" font-weight="600" fill="#58a6ff">Top Repositories</text>'
        . $staleNote . $body . '</svg>';
     exit;
 }
