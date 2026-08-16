@@ -1,12 +1,11 @@
-# 🤖 AI Developer & Machine Learning Engineer
+# 🎯 Forward-Deployed Engineer · AI & Automation
 
-I build AI-powered tools, e-commerce API integrations, and automation systems that do real work in production. Python-first, shipping since 2018, with **300+ repositories** and a **464-star open-source flagship** to show for it.
+I'm the engineer you embed where software meets a real operation. For 8+ years I've built and run the systems a live wholesale e-commerce business depends on daily — CRM, ERP, EDI, marketplaces, marketing automation — and turned those operational problems into **300+ repositories** of working tooling, including a **464-star open-source flagship**.
 
-- 🧠 **AI & ML tooling** — memory systems, local LLMs (Ollama), computer vision experiments
-- 🛒 **E-commerce integrations** — Alibaba Open API suite, WooCommerce, EDI, product catalog pipelines
-- 🗄️ **CRM & ERP systems** — SuiteCRM customization, inventory, POS, and order-flow tooling
-- 📧 **Marketing automation** — Brevo and Klaviyo campaigns and flows that run unattended
-- ⚙️ **Automation everywhere** — scraping, CSV/PDF/image data pipelines; if I have to do it twice, it becomes a Python script
+- 🎯 **Forward-deployed by nature** — I work at the edge: messy data, legacy systems, real users, hard deadlines. Ship first, polish after.
+- 🧠 **AI that reaches production** — LLM tooling, local models (Ollama), AI memory systems, computer vision — applied to actual workflows, not demos.
+- ⚡ **Velocity as a habit** — 104 repositories created in the last 12 months; if I have to do it twice, it becomes a Python script.
+- 🔌 **Deep integration surface** — Alibaba Open API, WooCommerce, Klaviyo, Brevo, SuiteCRM, EDI (X12/EDIFACT), POS, and whatever your stack throws at me.
 
 ---
 
