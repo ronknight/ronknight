@@ -30,8 +30,6 @@ I build AI-powered tools, e-commerce API integrations, and automation systems th
 ![Forks](https://img.shields.io/badge/Total_Forks-218-orange?style=for-the-badge)
 ![Active](https://img.shields.io/badge/Repos_Created_Last_12mo-108-8250df?style=for-the-badge)
 
-**Languages across 329 repositories:** Python 48% · HTML 13% · JavaScript 11% · TypeScript 7% · PHP 3% · other 18%
-
 ### 🏆 Featured Projects
 
 | Project | What it is | Proof |
