@@ -97,9 +97,4 @@ I build AI-powered tools, e-commerce API integrations, and automation systems th
 
 ---
 
-[![](https://komarev.com/ghpvc/?username=ronknight)](https://komarev.com/ghpvc/?username=ronknight)
-<!-- Self-hosted counter (see counter/README.md). After deploying counter/ to
-     your PHP host, replace YOUR-HOST below, uncomment this line, and delete
-     the komarev line above.
-![Profile views](https://YOUR-HOST/counter/counter.php?page=profile&label=Profile%20views)
--->
+![Profile views](https://metrics.pinoyitsolution.com/counter.php?page=profile&label=Profile%20views)
