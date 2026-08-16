@@ -2,10 +2,11 @@
 
 I build AI-powered tools, e-commerce API integrations, and automation systems that do real work in production. Python-first, shipping since 2018, with **300+ repositories** and a **464-star open-source flagship** to show for it.
 
-- 🧠 **AI & ML tooling** — memory systems, computer vision experiments, LLM-powered apps
-- 🛒 **E-commerce integrations** — Alibaba Open API suite, WooCommerce, product data pipelines
-- 📧 **Marketing automation** — Brevo, Klaviyo, and SuiteCRM integrations that run unattended
-- ⚙️ **Automation everywhere** — if I have to do it twice, it becomes a Python script
+- 🧠 **AI & ML tooling** — memory systems, local LLMs (Ollama), computer vision experiments
+- 🛒 **E-commerce integrations** — Alibaba Open API suite, WooCommerce, EDI, product catalog pipelines
+- 🗄️ **CRM & ERP systems** — SuiteCRM customization, inventory, POS, and order-flow tooling
+- 📧 **Marketing automation** — Brevo and Klaviyo campaigns and flows that run unattended
+- ⚙️ **Automation everywhere** — scraping, CSV/PDF/image data pipelines; if I have to do it twice, it becomes a Python script
 
 ---
 
@@ -70,6 +71,15 @@ I build AI-powered tools, e-commerce API integrations, and automation systems th
 [![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 [![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
 
+**Automation & Integrations:**
+
+[![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)](https://www.selenium.dev/)
+[![Klaviyo](https://img.shields.io/badge/Klaviyo-232426?style=for-the-badge&logo=klaviyo&logoColor=white)](https://www.klaviyo.com/)
+[![Brevo](https://img.shields.io/badge/Brevo-0B996E?style=for-the-badge&logo=brevo&logoColor=white)](https://www.brevo.com/)
+[![SuiteCRM](https://img.shields.io/badge/SuiteCRM-1C7EBB?style=for-the-badge&logo=suitecrm&logoColor=white)](https://suitecrm.com/)
+[![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)](https://ollama.com/)
+![EDI](https://img.shields.io/badge/EDI-X12%2FEDIFACT-4B5563?style=for-the-badge)
+
 **Data & Infrastructure:**
 
 [![MySQL](https://img.shields.io/badge/mysql-%2300000f.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
@@ -83,19 +93,13 @@ I build AI-powered tools, e-commerce API integrations, and automation systems th
 ---
 
 ## 📊 GitHub Statistics:
-![](https://github-readme-stats.vercel.app/api?username=ronknight&theme=dark&hide_border=false&include_all_commits=true&count_private=true)
 ![](https://streak-stats.demolab.com/?user=ronknight&theme=dark&hide_border=false)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ronknight&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
----
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=ronknight&theme=oldie&no-frame=true&no-bg=true&margin-w=4)
-
----
-
-### 🔝 Top Contributed Repositories
-![](https://github-contributor-stats.vercel.app/api?username=ronknight&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
 
 [![](https://komarev.com/ghpvc/?username=ronknight)](https://komarev.com/ghpvc/?username=ronknight)
+<!-- Self-hosted counter (see counter/README.md). After deploying counter/ to
+     your PHP host, replace YOUR-HOST below, uncomment this line, and delete
+     the komarev line above.
+![Profile views](https://YOUR-HOST/counter/counter.php?page=profile&label=Profile%20views)
+-->
