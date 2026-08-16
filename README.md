@@ -13,10 +13,9 @@ I build AI-powered tools, e-commerce API integrations, and automation systems th
 ## 🌐 Connect with Me:
 
 <a href="https://github.com/ronknight?tab=followers"><img src="https://img.shields.io/github/followers/ronknight?style=social"></a>
-<a href="https://github.com/ronknight/ronknight/stargazers"><img src="https://img.shields.io/github/stars/ronknight/ronknight.svg?logo=github"></a>
-<a href="https://github.com/ronknight/ronknight/network/members"><img src="https://img.shields.io/github/forks/ronknight/ronknight.svg?color=blue&logo=github"></a>
-<a href="https://twitter.com/PinoyITSolution"><img src="https://img.shields.io/twitter/follow/PinoyITSolution?style=social"></a>
-<a href="https://youtube.com/@PinoyITSolution"><img src="https://img.shields.io/youtube/channel/subscribers/UCeoETAlg3skyMcQPqr97omg"></a>
+<a href="https://github.com/ronknight?tab=repositories"><img src="https://img.shields.io/github/stars/ronknight?style=social&label=Total%20Stars"></a>
+<a href="https://twitter.com/PinoyITSolution"><img src="https://img.shields.io/badge/X-%40PinoyITSolution-000000?logo=x&logoColor=white"></a>
+<a href="https://youtube.com/@PinoyITSolution"><img src="https://img.shields.io/badge/YouTube-%40PinoyITSolution-FF0000?logo=youtube&logoColor=white"></a>
 
 ---
 
