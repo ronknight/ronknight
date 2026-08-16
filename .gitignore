@@ -1,2 +1,4 @@
 .env
 counter/counter_data.json
+counter/config.php
+counter/stats_cache.json

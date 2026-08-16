@@ -30,3 +30,32 @@ File-based storage (JSON + `flock`), no database required.
 
 Every distinct `page` value keeps its own count in `counter_data.json`,
 so one deployment can serve badges for many repos.
+
+---
+
+# Self-hosted GitHub stats cards
+
+`stats.php` replaces the dead github-readme-stats cards with SVGs rendered
+from live GitHub API data, including private-repo counts.
+
+## Deploy
+
+1. Copy `config.sample.php` to `config.php` and paste a **fine-grained PAT**
+   with **Metadata: Read-only** on **all repositories** (no other permission).
+2. Upload `stats.php` and `config.php` next to `counter.php`.
+3. Test: `https://your-host.example/stats.php?card=stats` and `?card=langs`.
+
+## Embed
+
+```markdown
+![](https://your-host.example/stats.php?card=stats)
+![](https://your-host.example/stats.php?card=langs)
+```
+
+## Behavior
+
+- Stats are computed from the GitHub API and cached in `stats_cache.json`
+  for one hour, so cards load fast and never hit rate limits.
+- If the token expires or the API is down, the last cached numbers are
+  served indefinitely (with a small "cached" note) — the images never break.
+  To renew, paste a fresh token into `config.php`; that's the whole rotation.
