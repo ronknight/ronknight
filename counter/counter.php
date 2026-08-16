@@ -29,9 +29,18 @@ if ($fp === false) {
     exit('cannot open counter storage');
 }
 flock($fp, LOCK_EX);
-$raw  = stream_get_contents($fp);
-$data = $raw !== '' ? json_decode($raw, true) : [];
-if (!is_array($data)) { $data = []; }
+$raw = stream_get_contents($fp);
+// Tolerate a UTF-8 BOM and stray whitespace from hand edits.
+$clean = trim(preg_replace('/^\xEF\xBB\xBF/', '', $raw));
+$data  = $clean !== '' ? json_decode($clean, true) : [];
+if (!is_array($data)) {
+    // Never wipe existing data on a parse failure — refuse to write instead.
+    flock($fp, LOCK_UN);
+    fclose($fp);
+    http_response_code(500);
+    header('Content-Type: text/plain');
+    exit("counter_data.json is not valid JSON; fix it by hand, e.g.: {\"profile\": 1500}");
+}
 $data[$page] = ($data[$page] ?? 0) + 1;
 rewind($fp);
 ftruncate($fp, 0);
