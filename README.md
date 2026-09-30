@@ -1,11 +1,11 @@
 # 🎯 Forward-Deployed Engineer · AI & Automation
 
-I'm the engineer you embed where software meets a real operation. For 8+ years I've built and run the systems a live wholesale e-commerce business depends on daily — CRM, ERP, EDI, marketplaces, marketing automation — and turned those operational problems into **300+ repositories** of working tooling, including a **464-star open-source flagship**.
+I'm the engineer you embed where software meets a real operation. For 8+ years I've built and run the systems a live wholesale e-commerce business depends on daily — CRM, ERP, marketplaces, marketing automation — and turned those operational problems into **300+ repositories** (100+ public) of working tooling, including an open-source flagship with **460+ stars**.
 
 - 🎯 **Forward-deployed by nature** — I work at the edge: messy data, legacy systems, real users, hard deadlines. Ship first, polish after.
 - 🧠 **AI that reaches production** — LLM tooling, local models (Ollama), AI memory systems, computer vision — applied to actual workflows, not demos.
-- ⚡ **Velocity as a habit** — 104 repositories created in the last 12 months; if I have to do it twice, it becomes a Python script.
-- 🔌 **Deep integration surface** — Alibaba Open API, WooCommerce, Klaviyo, Brevo, SuiteCRM, EDI (X12/EDIFACT), POS, and whatever your stack throws at me.
+- ⚡ **Velocity as a habit** — 100+ repositories created in the last 12 months; if I have to do it twice, it becomes a Python script.
+- 🔌 **Deep integration surface** — Alibaba Open API, WooCommerce, Klaviyo, Brevo, SuiteCRM, POS, and whatever your stack throws at me.
 
 ---
 
@@ -33,10 +33,10 @@ I'm the engineer you embed where software meets a real operation. For 8+ years I
 
 | Project | What it is | Proof |
 |---------|-----------|-------|
-| [InventorySystem](https://github.com/ronknight/InventorySystem) | Open-source inventory management system (PHP/CodeIgniter) used and forked worldwide | ⭐ 464 |
+| [InventorySystem](https://github.com/ronknight/InventorySystem) | Open-source inventory management system (PHP/CodeIgniter), adapted and maintained by me; used and forked worldwide | ⭐ 466 |
 | [bulk_file_downloader](https://github.com/ronknight/bulk_file_downloader) | Bulk downloader for images, PDFs, and media from URL lists (Python) | ⭐ 18 |
-| [mempalace](https://github.com/ronknight/mempalace) | Benchmarked open-source AI memory system (Python) | 🧠 AI |
-| [Ai-hologram](https://github.com/ronknight/Ai-hologram) | Interactive AI hologram experience (TypeScript) | 🧠 AI |
+| [landing-page-banner-automation](https://github.com/ronknight/landing-page-banner-automation) | Generates event-themed landing-page banners from product TIF images for a live wholesale storefront (Python/ImageMagick) | ⚙️ Automation |
+| [Ai-hologram](https://github.com/ronknight/Ai-hologram) | Voice-driven AI assistant on local Ollama models with streaming responses, structured JSON output, and grounded Q&A (React/TypeScript) | 🧠 AI |
 | [alibaba-open-api](https://github.com/ronknight/alibaba-open-api) | Python integration suite for the Alibaba Open API (one of three Alibaba API repos) | 🛒 E-commerce |
 | [export-woocommerce-products-wordpress](https://github.com/ronknight/export-woocommerce-products-wordpress) | Automated WooCommerce product export tooling (Python) | ⭐ 6 |
 <!-- /auto:portfolio-stats -->
